@@ -20,13 +20,13 @@ namespace IT_Vetran_HomeWorw3_TrainSet_WithLibrary_C
             SleepingCarriage carriage = new SleepingCarriage(25, 40, 2); // створюємо пустий вагон 
 
 
-            Passenger p1 = new Passenger("Ivan", "Petrenko", 1, true, 1);// створюємо пасажирів 
+            Passenger p1 = new Passenger("Ivan", "Rotko", 1, true, 1);// створюємо пасажирів 
 
 
-            Passenger p2 = new Passenger("Oleg", "Ivanov", 2, true, 2);
+            Passenger p2 = new Passenger("Madyar", "Browdy", 2, true, 2);
 
 
-            Conductor c1 = new Conductor("Anna", "Koval", false); // створюєо кондуктора 
+            Conductor c1 = new Conductor("Anna", "Karenina", false); // створюєо провідника  
 
 
             carriage.AddPassenger(p1); // додаємо їх в вагон 
