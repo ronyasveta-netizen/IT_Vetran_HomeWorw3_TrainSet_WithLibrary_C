@@ -36,17 +36,17 @@ namespace Class_Library_TrainSet.People
 
         public override string ToString() // перевизначений тустрінг
         {
-            return $"{base.ToString()}, Experience: {ExperienceYears} years";
+            return $"{base.ToString()}, Experience :: {ExperienceYears} years";
         }
 
         public void Accelerate()  // методи з інтерфейсу з обовязковою реалізацією
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Let's speed up the pace");
         }
 
         public void Brake() // методи з інтерфейсу з обовязковою  реалізацією
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Reduce speed");
         }
     }
 }

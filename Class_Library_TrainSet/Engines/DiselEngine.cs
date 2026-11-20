@@ -15,7 +15,7 @@ namespace Class_Library_TrainSet.Engines
         }
         public override string ToString()
         {
-            return $"{base.ToString()}, CountCylinders: {CylinderCount} ";
+            return $"{base.ToString()}, CountCylinders :: {CylinderCount} ";
         }
     }
 }

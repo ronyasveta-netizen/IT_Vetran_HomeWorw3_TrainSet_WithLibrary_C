@@ -15,7 +15,7 @@ namespace Class_Library_TrainSet.Engines
         }
         public override string ToString() // перевизначення тустрінг з використанням базового  
         {
-            return $"{base.ToString()}, Voltage: {Voltage} V";
+            return $"{base.ToString()}, Voltage:: {Voltage} V";
         }
 
     }

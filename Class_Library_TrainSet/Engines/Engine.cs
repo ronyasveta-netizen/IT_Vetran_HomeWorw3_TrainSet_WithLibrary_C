@@ -26,7 +26,7 @@ namespace Class_Library_TrainSet.Engines
         }
         public override string ToString() // перевизначили тустрінг
         {
-            return $"Power: {Power} HP";
+            return $"Power :: {Power} HP";
         }
     }
 }

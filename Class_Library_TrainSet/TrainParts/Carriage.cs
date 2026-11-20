@@ -20,9 +20,8 @@ namespace Class_Library_TrainSet.TrainParts
             }
         }
 
-        protected Carriage()
-        {
-        }
+        protected Carriage() { }
+        
 
         protected Carriage(int length, int emptyWeight)
             : base(length)

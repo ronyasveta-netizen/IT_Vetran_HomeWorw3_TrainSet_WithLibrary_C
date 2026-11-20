@@ -25,7 +25,7 @@ namespace Class_Library_TrainSet.People
 
         public override string ToString()
         {
-            return $"{base.ToString()}, Ticket: {TicketNumber}, Seat: {SeatNumber}";
+            return $"{base.ToString()}, Ticket :: {TicketNumber}, Seat: {SeatNumber}";
         }
     }
 }

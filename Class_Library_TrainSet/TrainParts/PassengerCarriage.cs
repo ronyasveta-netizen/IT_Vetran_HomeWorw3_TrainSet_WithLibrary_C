@@ -22,13 +22,11 @@ namespace Class_Library_TrainSet.TrainParts
             }
         }
 
-        public List<Passenger> Passengers { get; } =
-            new List<Passenger>();
+        public List<Passenger> Passengers { get; } = new List<Passenger>();
 
-        protected PassengerCarriage()
-        {
-        }
 
+        protected PassengerCarriage() { }
+     
         protected PassengerCarriage(
             int length,
             int emptyWeight,

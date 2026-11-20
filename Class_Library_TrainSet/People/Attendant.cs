@@ -5,11 +5,11 @@ using System.Text;
 
 namespace Class_Library_TrainSet.People
 {
-    public class Conductor : Person, IPassengerService
+    public class Attendant : Person, IPassengerService
     {
         public bool IsMan { get; set; }
-        public Conductor() { }
-        public Conductor(
+        public Attendant() { }
+        public Attendant(
             string firstName,
             string lastName,
             bool isMan)
@@ -20,22 +20,22 @@ namespace Class_Library_TrainSet.People
 
         public void CheckTickets()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Check ticket");
         }
 
         public void MakeCoffee()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Make black coffee");
         }
 
         public void MakeTea()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Make green tea");
         }
 
         public override string ToString()
         {
-            return $"{base.ToString()}, Gender: {(IsMan ? "Man" : "Woman")}";
+            return $"{base.ToString()}, Gender :: {(IsMan ? "Man" : "Woman")}";
         }
     }
 }
